@@ -35,57 +35,7 @@ public class JPanelEstudiante extends javax.swing.JPanel {
         initComponents();
         jTabbedPane1.setEnabledAt(2, false);
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonActualizarE;
-    private javax.swing.JButton jButtonConsultarE;
-    private javax.swing.JButton jButtonEditarCE;
-    private javax.swing.JButton jButtonEliminarE;
-    private javax.swing.JButton jButtonLimpiarAE;
-    private javax.swing.JButton jButtonLimpiarCE;
-    private javax.swing.JButton jButtonLimpiarRE;
-    private javax.swing.JButton jButtonRegistarE;
-    private javax.swing.JComboBox jCBProgramaAE;
-    private javax.swing.JComboBox jCBProgramaCE;
-    private javax.swing.JComboBox jCBProgramaRE;
-    private javax.swing.JComboBox jCBSexoAE;
-    private javax.swing.JComboBox jCBSexoCE;
-    private javax.swing.JComboBox jCBSexoRE;
-    private javax.swing.JLabel jLCodigo;
-    private javax.swing.JLabel jLCodigo1;
-    private javax.swing.JLabel jLCodigo3;
-    private javax.swing.JLabel jLNombre;
-    private javax.swing.JLabel jLNombre1;
-    private javax.swing.JLabel jLNombre2;
-    private javax.swing.JLabel jLNombre3;
-    private javax.swing.JLabel jLNombre4;
-    private javax.swing.JLabel jLNombre5;
-    private javax.swing.JLabel jLPrograma;
-    private javax.swing.JLabel jLPrograma1;
-    private javax.swing.JLabel jLPrograma3;
-    private javax.swing.JLabel jLSexo;
-    private javax.swing.JLabel jLSexo1;
-    private javax.swing.JLabel jLSexo3;
-    private javax.swing.JLabel jLabelNotaEditar;
-    private javax.swing.JLabel jLabelRegistar;
-    private javax.swing.JLabel jLabelRegistar1;
-    private javax.swing.JLabel jLabelRegistar3;
-    private javax.swing.JLabel jLabelTitulo;
-    private javax.swing.JPanel jPanelConsultaE;
-    private javax.swing.JPanel jPanelEditarE;
-    private javax.swing.JPanel jPanelRegistroE;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTFCodigoAE;
-    private javax.swing.JTextField jTFCodigoCE;
-    private javax.swing.JTextField jTFCodigoRE;
-    private javax.swing.JTextField jTFEdadAE;
-    private javax.swing.JTextField jTFEdadCE;
-    private javax.swing.JTextField jTFEdadRE;
-    private javax.swing.JTextField jTFNombreAE;
-    private javax.swing.JTextField jTFNombreCE;
-    private javax.swing.JTextField jTFNombreRE;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTableResultados;
-    // End of variables declaration//GEN-END:variables
+   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -621,4 +571,56 @@ public class JPanelEstudiante extends javax.swing.JPanel {
         jTableResultados.setRowSorter(new TableRowSorter(myModel));
         //</editor-fold>
     }
+	
+	 // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonActualizarE;
+    private javax.swing.JButton jButtonConsultarE;
+    private javax.swing.JButton jButtonEditarCE;
+    private javax.swing.JButton jButtonEliminarE;
+    private javax.swing.JButton jButtonLimpiarAE;
+    private javax.swing.JButton jButtonLimpiarCE;
+    private javax.swing.JButton jButtonLimpiarRE;
+    private javax.swing.JButton jButtonRegistarE;
+    private javax.swing.JComboBox jCBProgramaAE;
+    private javax.swing.JComboBox jCBProgramaCE;
+    private javax.swing.JComboBox jCBProgramaRE;
+    private javax.swing.JComboBox jCBSexoAE;
+    private javax.swing.JComboBox jCBSexoCE;
+    private javax.swing.JComboBox jCBSexoRE;
+    private javax.swing.JLabel jLCodigo;
+    private javax.swing.JLabel jLCodigo1;
+    private javax.swing.JLabel jLCodigo3;
+    private javax.swing.JLabel jLNombre;
+    private javax.swing.JLabel jLNombre1;
+    private javax.swing.JLabel jLNombre2;
+    private javax.swing.JLabel jLNombre3;
+    private javax.swing.JLabel jLNombre4;
+    private javax.swing.JLabel jLNombre5;
+    private javax.swing.JLabel jLPrograma;
+    private javax.swing.JLabel jLPrograma1;
+    private javax.swing.JLabel jLPrograma3;
+    private javax.swing.JLabel jLSexo;
+    private javax.swing.JLabel jLSexo1;
+    private javax.swing.JLabel jLSexo3;
+    private javax.swing.JLabel jLabelNotaEditar;
+    private javax.swing.JLabel jLabelRegistar;
+    private javax.swing.JLabel jLabelRegistar1;
+    private javax.swing.JLabel jLabelRegistar3;
+    private javax.swing.JLabel jLabelTitulo;
+    private javax.swing.JPanel jPanelConsultaE;
+    private javax.swing.JPanel jPanelEditarE;
+    private javax.swing.JPanel jPanelRegistroE;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextField jTFCodigoAE;
+    private javax.swing.JTextField jTFCodigoCE;
+    private javax.swing.JTextField jTFCodigoRE;
+    private javax.swing.JTextField jTFEdadAE;
+    private javax.swing.JTextField jTFEdadCE;
+    private javax.swing.JTextField jTFEdadRE;
+    private javax.swing.JTextField jTFNombreAE;
+    private javax.swing.JTextField jTFNombreCE;
+    private javax.swing.JTextField jTFNombreRE;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable jTableResultados;
+    // End of variables declaration//GEN-END:variables
 }
